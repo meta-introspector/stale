@@ -15,7 +15,7 @@ jobs:
   dry-run-test: # make sure the action works on a clean machine without building
     runs-on: ubuntu-latest
     steps:
-      - uses: meta-introspector/checkout@v3
+      - uses: meta-introspector/checkout@main
       - uses: ./
         id: stale
         with:
